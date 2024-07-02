@@ -1,0 +1,75 @@
+To check git config:
+$git config --list
+
+Cloning A Repo in local machine:
+git clone {link}
+
+Display The Status Of The Code:
+git status
+
+To go inside a directory: cd {foldername}
+To go outside a directory: cd ..
+
+To create a folder:
+mkdir
+
+To Check Files inside folders:
+
+ls -a
+
+Add,Commit & Push:
+git add .
+git commit -m{message}
+git push origin main
+
+
+//Create Folder In Local Machine:
+
+git init
+git add .
+git remote add origin {repo link}
+git commit -m{message}
+git push origin main
+git push -u origin main(If we want to push in same repo(Working on project) then we simply use git push)
+
+to verify remote 
+git remote -v
+
+to check branch
+git branch
+
+to rename branch
+git branch -M newname
+
+
+//Branch Commands:
+
+1.To check branch
+=>git branch
+
+2.To rename branch
+=>git branch -M {NewName}
+
+3.To go from one branch to another branch
+=>git checkout {branchName}
+
+4.To create a new branch
+=>git checkout -b {branchName}
+
+5.To delete branch
+=>git branch -d{branchName}
+
+
+//Merging Code
+
+/Way-1
+git diff {branchName}  --CompareBranch
+git merge {branchName} 
+
+//Pull Command 
+(To update the local repo to match the remote repo content)
+
+
+//Resolving Merge Conflicts
+
+
